@@ -10,7 +10,7 @@ import WhiteBorder from './Main/AME/WhiteBorder'
 import { ContextPorvider } from './Component/Login'
 import BlackScreen from './Component/BlackScreen'
 import video from './assets/videoBG.mp4'
-import Intro from './Main/Main-body/intro'
+import Intro from './Main/Main-body/Intro'
 function App() {
   
   const [click,setclick]=useState(false);
