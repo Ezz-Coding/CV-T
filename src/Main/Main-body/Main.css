@@ -1,0 +1,97 @@
+.Main{
+    text-align: start;
+   
+    width: 100%;
+ 
+    height: 80vh;
+ justify-items: center; 
+ align-content: center;
+  
+}
+.Main-son{
+    margin-top: 100px;
+  background-image: url("./../../assets/FREE.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-color: aliceblue;
+    width:230px;
+    height:400px;
+    border-radius: 40px;
+    cursor: pointer     ;
+    transition: .5s;
+
+    
+}
+.backInfo{
+ background-color: rgba(169, 169, 169, 0.685);
+ position: fixed;
+ top: 150px;
+ width: 60%;
+ height:600px;
+ margin-left: 20%;
+ z-index: 1;
+ border-radius: 40px;
+ animation: OP 1s forwards;
+ 
+
+}
+.backInfo span{
+    font-size: x-large;
+    color: rgb(50, 50, 50);
+    font-weight: 900;
+    margin-left: 20%;
+}
+.backInfo table{
+    margin-left: 20%;
+
+}
+.backInfo table thead th {
+    padding-left:  100px;
+    color: aliceblue;
+}
+.backInfo table tbody td a{
+    font-size: x-large;
+text-decoration: none;
+transition: .1s;
+}
+.backInfo table tbody td h1{
+    margin: 0;
+    margin-bottom: 10px;
+    background: linear-gradient(to right , black ,white , black);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+    animation: io 15s infinite ;
+    font-weight: 900;
+}
+.backInfo table tbody td a:hover{
+    font-size: xx-large;
+}
+.backInfo img{
+    margin-top: 30px;
+    margin-left: 90%;
+    width: 40px;
+}
+.backInfo img:hover{
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+@keyframes rotat {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+
+    }
+    75%{
+        transform: rotate(5deg);
+        
+
+    }
+    100%{
+        transform: rotate(-5deg);
+       
+
+    }
+}

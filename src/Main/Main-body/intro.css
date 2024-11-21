@@ -1,0 +1,35 @@
+.intro_for_cv{
+    width: 100%;
+    height: 140px;
+    background-color: #23232e;
+    margin-bottom: 200px;
+    text-align: center;
+    
+}
+
+.intro_for_cv h1{
+    background: linear-gradient(to right , black ,white , black);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-top: 50px;
+    animation: io 8s infinite ;
+    font-weight: 900;
+}
+@keyframes io {
+    0%{
+        background-position: 200px 0;
+
+    }
+    50%{
+        background-position: 0  100px;
+
+    }
+    75%{
+        background-position: -200px 0;
+
+    }
+    to{
+        background-position: 200px 0;
+
+    }
+}

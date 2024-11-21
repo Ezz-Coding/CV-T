@@ -1,0 +1,45 @@
+
+header{
+    color: rgba(4, 4, 4, 0.996);
+    position: fixed;
+    height: 50px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 90% auto;
+z-index: 2;
+background: linear-gradient(to right,rgb(50, 46, 46),rgba(0, 0, 0, 0.981));
+background-size: 2000px 10px;
+animation: move infinite  15s;
+transition: .5s;
+}
+header h1{
+    margin-top: 8px;
+margin-left: 40px;
+transition: .5s;
+
+}
+header img{
+    width: 50px;
+    cursor: pointer;
+}
+@keyframes move {
+    0%{
+        background-position: -2000px 0;
+        box-shadow: 0 40px 60px 1px rgb(12, 1, 1);
+    }
+    50%{
+        background-position: 2000px 0;
+        box-shadow: 0 0 00;
+
+    }
+    100%{
+        background-position: -2000px 0;
+        box-shadow: 0 40px 60px 1px rgb(12, 1, 1);
+
+
+
+    }
+}
