@@ -8,6 +8,7 @@ const Main = () => {
     const [click,setClick]= useState(false);
     const {Login} =useContext(Contextthis)
     const [BackInfo,setBackInfo]= useState(false);
+    const {setSure} = useContext(Contextthis);
   
     const openClick=()=>{
       const son1 = document.getElementById('Son1');
@@ -24,6 +25,7 @@ const Main = () => {
           
           setClick(false)
           setBackInfo(true)
+          setSure(true)
         }}>
   
           
@@ -39,7 +41,7 @@ const Main = () => {
           <img src={iconeclose} onClick={()=>{setBackInfo(false)
             setClick(true)
           openClick();
-
+setSure(false);
           }} alt="not found this image" />
          <span>Name : Ez-Code</span>
          <br />

@@ -43,3 +43,34 @@ header img{
 
     }
 }
+@media (max-width: 540px) {
+    header{
+        color: rgba(4, 4, 4, 0.996);
+        position: fixed;
+        height: 50px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10px;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: 80% auto;
+    z-index: 2;
+    background: linear-gradient(to right,rgb(50, 46, 46),rgba(0, 0, 0, 0.981));
+    background-size: 2000px 10px;
+    animation: move infinite  15s;
+    transition: .5s;
+    }
+    header h1{
+        font-size: large;
+        margin-top: 15px;
+    margin-left: 40px;
+    transition: .5s;
+    
+    }
+    header img{
+        margin-top: 10px;
+
+        width: 30px;
+        cursor: pointer;
+    }
+}

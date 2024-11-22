@@ -230,3 +230,237 @@ background-color: #201d1d;
   color: red;
   margin-left: 0;
 }
+@media (max-width:550px) {
+  .Main-contaner{
+    background-color: rgba(240, 255, 255, 0.57);
+   position: fixed;
+   right: -200px;
+   top: 0;
+   width: 30%;
+   border-radius: 20px;
+   height: 100vh;
+   z-index: 3;
+   transition: .5s;
+}
+.Main-contaner img{
+    width: 20px;
+    margin-top: 20px;
+    margin-left: 60%;
+
+}
+.Main-contaner .image2:hover{
+  background-color: aliceblue;
+  border-radius: 50%;
+
+}
+.image_Login{
+ 
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 30px;
+  font-size: x-large;
+  font-weight: 600;
+  text-align: end;
+  transition: .5s;
+
+  
+}
+.image_Login img{
+  width: 20px;
+  margin-top: 0;
+margin-left: 0;
+cursor: pointer;
+
+}
+.image_Login label{
+cursor: pointer;
+
+}
+.Login_Main{
+  background-color: rgb(36, 33, 37);
+  position: fixed;
+  width: 60%;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  z-index:6;
+  transform: translate(-50%,-50%);
+border-radius: 20px;
+  transition: 5ms;
+}
+
+.Login_Liner label {
+margin-left: 10%;
+margin-right: 10%;
+font-size: xx-large;
+background: -webkit-linear-gradient(55deg , rgb(163, 147, 147) , rgb(153, 150, 150) ,rgb(0, 0, 0));
+
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Login_Liner input{
+  width: 40%;
+  height: 40px;
+  border: 0;
+  outline:none;
+border-radius: 30px;
+background-color: rgba(128, 128, 128, 0.449);
+font-size: x-large;
+}
+.Login_Liner  span{
+margin-right: 3%;
+ 
+}
+.Login_Liner h1{
+  margin-left: 20%;
+  background: -webkit-linear-gradient(65deg , rgb(40, 39, 39) , rgb(222, 222, 222) ,rgb(0, 0, 0));
+font-weight: 900;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+.Login_Liner p span{
+  color: rgb(0, 82, 154);
+  cursor: pointer;
+}
+.Login_Liner p{
+  margin-left: 20%;
+color: aliceblue;
+font-weight: 900;
+
+  
+}
+
+.Login_Liner button{
+margin-left: 10%;
+padding: 10px 40px;
+border: 0;
+border-radius: 30px;
+font-size: x-large;
+background-color: darkgray;
+transition: .5s;
+font-weight: 600;
+cursor: pointer;
+
+}
+
+.Login_SiginUP:hover{
+  background-color: black;
+  color: aliceblue;
+  transform: scale(1.1);
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+.Submit:hover{
+  background-color: black;
+  color: aliceblue;
+  transform: scale(1.1);
+  letter-spacing: 3px;
+  font-weight: 700;
+
+}
+.nav_info a{
+  margin-left: 40px;
+text-decoration: none;
+color: #000;
+font-size: x-large;
+font-weight: 600;
+
+}
+.nav_info{
+  position: relative;
+  top: 60%;
+  
+}
+.weclome_for_user{
+
+  margin-left: 20px;
+
+  color: #000;
+  font-size: medium;
+  font-weight: 900; 
+}
+.backSure{
+  background:linear-gradient(to right, rgb(128, 128, 128),rgb(133, 7, 7),rgb(141, 79, 79),rgb(128, 128, 128)) ;
+  height: 200px;
+  border-radius: 20px;
+  width: 40%;
+  position: fixed;
+  top: 40%;
+  left: 30%;
+  z-index:6;
+
+  background-position: 600px  ;
+  animation: mevo infinite 10s ;
+
+}
+.backSure h3{
+  margin-top: 40px;
+  margin-left: 10%;
+  background: linear-gradient(90deg, rgb(238, 211, 211),rgb(1, 1, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+@keyframes mevo {
+  0%{
+    background-position:0  ;
+  }
+  25%{
+    background-position: -100px ;
+
+  }
+  50%{
+    background-position: -200px ;
+
+  }
+  75%{
+    background-position: 100px ;
+
+  }
+  100%{
+    background-position:0  ;
+
+  }
+}
+.backSure button{
+  padding: 10px 40px;
+  border: 0;
+  border-radius: 20px;
+  font-size: larger;
+
+  color: aliceblue;
+  cursor: pointer;
+  transition: .5s;
+}
+.Yes{
+  margin-top: 40px;
+  margin-left: 60%;
+  background-color: rgb(201, 88, 88);
+}
+.Yes:hover{
+  background-color: rgb(255, 0, 0);
+  letter-spacing: 4px;
+
+}
+.NO:hover{
+  background-color: rgb(0, 0, 0);
+  letter-spacing: 4px;
+
+}
+.NO{
+  margin-left: 10px;
+background-color: #201d1d;
+}
+.logout{
+  margin-left: 14%;
+  font-weight: 800;
+  color: rgb(175, 43, 43);
+  cursor: pointer;
+}
+.logout img{
+  width: 20px;
+  color: red;
+  margin-left: 0;
+}
+}
