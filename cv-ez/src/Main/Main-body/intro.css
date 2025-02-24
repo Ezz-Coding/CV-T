@@ -1,0 +1,236 @@
+.intro_for_cv{
+    width: 100%;
+    height: 140px;
+    background-image: url("./../../assets/image(1).png");
+    margin-bottom: 200px;
+    margin-top: 625px;
+    text-align: center;
+    background-color: #151414;
+}
+.backInfo{
+    background-color: rgb(20, 20, 20);
+    position: fixed;
+    top: 100px;
+    width: 60%;
+    height:600px;
+    margin-left: 20%;
+    z-index:6;
+    border-radius: 40px;
+    animation: OP 1s forwards;
+   
+   
+   }
+   .backInfo span{
+       font-size: x-large;
+       color: aliceblue;
+   
+       font-weight: 900;
+       margin-left: 20%;
+   }
+   @keyframes rotat {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+
+    }
+    75%{
+        transform: rotate(5deg);
+        
+
+    }
+    100%{
+        transform: rotate(-5deg);
+       
+
+    }
+}
+   
+   .close{
+       margin-top: 20px;
+   }
+   .Main{
+    text-align: start;
+   
+    width: 100%;
+ 
+    height: 80vh;
+ justify-items: center; 
+ align-content: center;
+  
+}
+.main_main_son{
+    margin-top: 100px;
+    height:400px;
+
+    width:230px;
+}
+.Main-son{
+    width: 100%;
+    height: 100%;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-color: aliceblue;
+    border-radius: 40px;
+    cursor: pointer    ;
+    transition: .5s;
+
+    
+}
+.Main-son:hover{
+    transform: translateY(-20px);
+  box-shadow: 0 120px 120px 10px rgba(0, 0, 0, 0.436);
+
+}
+   .backInfo i{
+     
+       margin-left: 90%;
+       font-size: xx-large;
+       cursor: pointer;
+       transition: .5s;
+       border-radius: 20%;
+       color: rgb(167, 167, 167);
+   
+   }
+   
+   .backInfo i:hover{
+     color: aliceblue;
+       border-radius: 70%;
+   }
+   
+.intro_for_cv h1{
+    background: linear-gradient(to right , black ,white , black);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-top: 50px;
+    animation: io 8s infinite ;
+    font-weight: 900;
+
+}
+
+@keyframes io {
+    0%{
+        background-position: 200px 0;
+
+    }
+    50%{
+        background-position: 0  100px;
+
+    }
+    75%{
+        background-position: -200px 0;
+
+    }
+    to{
+        background-position: 200px 0;
+
+    }
+}
+.Swiper_child{
+    
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px 1px gray;
+margin-top: 20px;
+
+}
+.Swiper_child img{
+  transition: .5s;
+
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.Swiper_child :hover{
+  transform: translateY(-20px);
+  box-shadow: 0 60px 120px 10px rgba(0, 0, 0, 0.436);
+}
+.Swiper{
+  
+    height: 500px;
+width: 800px;
+  justify-content: center;
+    margin-bottom: 100px;
+    
+}
+.liner_h2 h1{
+
+    font-size: xxx-large;
+    margin: 0;
+    margin-bottom: 100px;
+    color: aliceblue;
+    text-align: center;
+}
+.images_for_Backing {
+    position: fixed;
+    top: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+}
+.Main_TOPS{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    
+}
+.liner_h2{
+    background-color: #151414;
+    border-radius: 10px;
+}
+.liner_h2 h1{
+    margin-top: 30%;
+
+}
+.swiper{
+    background-color: gray;
+    width: 100%;
+    border-radius: 10px;
+}
+.swiper .Swiper{
+    margin-top: 10%;
+    width: 90%;
+}
+.Swiper_child{
+    cursor: pointer;
+}
+.Swiper_child:hover{
+    cursor: grab ;
+}
+.scroll-bg{
+    margin-left: 20%;
+    margin-top: 10px;
+width: 70%;
+color: aliceblue;
+background-color: #555;
+border-radius: 10px;
+
+}
+.scroll-div{
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.scroll-object{
+    margin: 10px;
+}
+.scroll-bg ::-webkit-scrollbar {
+width: 20px;
+background-color: #151414;
+}
+.scroll-bg ::-webkit-scrollbar-track{
+    background-color: #252525;
+    border-radius: 10px;
+} 
+.scroll-bg ::-webkit-scrollbar-thumb{
+    background-color:#888;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+
+.scroll-bg ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+}

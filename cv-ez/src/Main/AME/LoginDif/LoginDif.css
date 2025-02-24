@@ -1,0 +1,70 @@
+.Main_css{
+    background-color: darkblue;
+    width: 100%;
+    height: 100vh;
+}
+.Main_css{
+    align-content: center ;
+
+}
+.main_login{
+    justify-items: center;
+    
+}
+.login {
+    background-color: rgb(8, 8, 71);
+    width: 40%;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow : 0 5px 15px 1px black;
+}
+.login h1{
+    text-align: center;
+    color: aliceblue;
+    margin: 0;
+    padding-top: 50px;
+}
+.input_froms{
+    margin-top: 60px;
+    color: aliceblue;
+    margin-left: 20%;
+    font-size: x-large;
+    font-weight: 700;
+}
+.input_froms label {
+    margin-right: 60px;
+}
+.input_froms input{
+    color: aliceblue;
+    width: 40%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: aliceblue;
+    border-radius:5px;
+    margin-bottom: 60px;
+
+}
+.input_froms button{
+    margin-left: 60%;
+    background-color: darkblue;
+    border:none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: medium;
+    transition: .5s;
+    color: aliceblue;
+
+}
+.input_froms button:hover{
+    margin-left: 60%;
+    background-color: aliceblue;
+    color: black;
+    border:none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: medium;
+    letter-spacing: normal;
+    font-weight: 400;
+}

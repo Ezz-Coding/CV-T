@@ -1,0 +1,159 @@
+
+.Video3{
+    position: fixed;
+      width: 100%;    
+      height: 100%;
+      object-fit: cover;
+     z-index: -1;
+     top: 0;
+     left: 0;
+     animation: opener 5.6s forwards;
+    
+    }
+    .Video4{
+      position: fixed;
+        width: 100%;    
+        height: 100%;
+        object-fit: cover;
+      
+         
+       top: 0;
+       left: 0;
+       animation: closer 5.6s forwards;
+      }
+    @keyframes closer {
+      0%{
+        display: block;
+      }
+      40%{
+        
+       left: 0%;
+      }
+      50%{
+        left: 0%;
+    
+      }
+      100%{
+       left: -100%;
+        
+       display: none;
+    
+      }
+      
+    }
+    @keyframes opener {
+      0%{
+        display: none;
+        left: 100%;
+    
+      }
+      40%{
+        left: 100%;
+      }
+      50%{
+        left: 100%;
+    
+    
+      }
+      100%{
+        left:0%;
+      
+        
+      display: block;
+    
+      }}
+      .Bn-s{
+      
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+     background-color: black;
+        transition: .5s;
+        box-shadow: 0 0 100px 10px rgba(0, 0, 0, 0.5);
+        color: aliceblue;
+      transform: scale(1.01);
+        
+      }
+      .Bn-s:hover{
+      background-color:  white;
+      transform: scale(1.01);
+      box-shadow: 0 0 300px 10px rgba(255, 255, 255, 0.5);
+    
+      color: #000;
+      }
+      @keyframes moving {
+        0%{
+          display: none;
+          left: 100%;
+      
+        }
+        40%{
+          display: none;
+    
+          left: 90%;
+        }
+        50%{
+          display: none;
+    
+          left: 88%;
+      
+      
+        }
+        100%{
+          
+          left:85%;
+          display: grid;
+    
+        }  
+      }
+    .main_for_button{
+      position: absolute;
+      top: 80%;
+      background-color: #2873ff;
+
+      width: 200px;
+      height: 40px;
+    
+      display: grid;
+      grid-template-columns: 1fr auto;
+      border-radius: 20px;
+      animation: moving 6.6s forwards;
+      
+    }
+    .liner_button select{
+     appearance: none;
+    
+     width: 100%;
+      font-size: x-large;
+      font-weight: 700;
+      margin-top: 8px;
+    border: 0;
+    margin-left: 20px;
+      color: aliceblue;
+      outline: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    background-color: #2873ff;
+      
+    }
+    
+    
+    .liner_button option{
+      
+      
+      background-color: lightgray;
+      color: black;
+      border: 1px solid #2873ff;
+      
+    }
+    .Sigin_backing{
+      width: 100%;
+      height: 100vh;
+      background-color: rgb(16, 16, 16);
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+    

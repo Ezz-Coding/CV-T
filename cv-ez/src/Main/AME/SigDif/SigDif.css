@@ -1,0 +1,250 @@
+.Main_Contant{
+    background-color: rgb(18, 17, 17);
+    height: 100vh;
+    transition: .5s;
+}
+.header{
+    padding-top: 30px;
+transition: .5s;
+    background-color: rgb(15, 15, 16);
+    height: 80px;
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.header a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px;
+    transition: 0.5s;
+
+}
+.header span a{
+    text-decoration: none;
+    color: rgb(0, 174, 174);
+
+    padding: 15px;
+}
+.header a:hover{
+  
+    color: aqua;
+   
+}
+.header span a:hover{
+    color: aqua;
+  
+}
+.header nav{
+    text-align: end;
+}
+.header h1{
+    margin-top: 0;
+    margin-left: 5%;
+    color: aqua;
+   
+}
+.main{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+}
+.Main_Son1{
+    height: 86.5vh;
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+    transition: .5s;
+
+}
+.Main_info{
+    margin-left: 5%;
+    background-color: rgb(10, 10, 10);
+    width: 600px;
+    height: auto;
+    color: rgb(0, 174, 174);
+
+}
+.line{
+    width: 100%;
+    margin-top: 40px;
+    
+    background-color: aqua;
+    height: 3px;
+}
+.Main_info p{
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 5%;
+}
+.Loading_for_Procss{
+   margin-left: 5%;
+   margin-top: 10px;
+    background-color: aqua;
+    height: 3px;
+
+}
+@keyframes step1 {
+    0%{
+
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+@keyframes step2 {
+    0%{
+
+        width: 30%;
+    }
+    100%{
+        width:60%;
+    }
+}
+@keyframes step3 {
+    0%{
+
+        width: 60%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.Main_info .radio input{
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    border: 1.00px solid aliceblue;
+
+}
+.Main_info .radio label{
+    margin-left: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+.Main_info .radio label:hover{
+   color: aqua;
+}
+.Select{
+    margin-top: 30px;
+    margin-left: 5%;
+
+}
+.Select select{
+    border: 1px solid  rgb(0, 174, 174);
+    border-radius: 5px;
+    height: 40px;
+    background-color: rgba(10, 10, 10, 0) ;
+  font-weight: 700;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: .5s;
+}
+.Select select:hover{
+    border: 1px solid aqua;
+    border-radius: 5px;
+    height: 40px;
+    background-color: rgba(10, 10, 10, 0) ;
+  font-weight: 700;
+  margin-left: 10px;
+  
+}
+.Select select option{
+   
+    cursor: pointer;
+}
+ .button{
+    
+  
+    margin-top: 80px;
+    margin-left: 50%;
+  
+    font-weight: 900;
+}
+.button i{
+    border: 1px solid rgb(0, 174, 174);
+    padding: 10px 40px;
+    background-color:rgba(10, 10, 10, 0);
+    color:  rgb(0, 174, 174);
+    border-radius: 20px;
+    transition: .5s;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.Main_info i:hover{
+    transform: scale(1.1);
+    border: 1px solid rgb(0, 174, 174);
+    padding: 10px 40px;
+    background-color:rgba(10, 10, 10, 0);
+    color:  rgb(0, 174, 174);
+    border-radius: 20px;
+    border: 1px solid aqua ;
+    color: aqua;
+}
+.input_info{
+    margin-left: 5%;
+    margin-top: 70px;
+}
+
+.input_info input{
+      margin-right: 20px;
+      border-radius: 10px;
+      height: 40px;
+      background-color: rgba(10, 10, 10, 0);
+      border: 1px solid rgb(0, 174, 174);
+      outline-color: rgb(36, 150, 150);
+      color: aliceblue;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+.input_Email{
+
+margin-top: 70px;
+    margin-left: 5%;
+}
+.input_Email input{
+     
+    margin-right: 20px;
+    border-radius: 10px;
+    height: 40px;
+    background-color: rgba(10, 10, 10, 0);
+    border: 1px solid rgb(0, 174, 174);
+    outline-color: rgb(36, 150, 150);
+    color: aliceblue;
+}
+.input_Email label{
+    font-size: x-large;
+}
+.button button{
+    border: 1px solid rgb(0, 174, 174);
+    padding: 11px 40px;
+    background-color:rgb(10, 10, 10);
+    color:  rgb(0, 174, 174);
+    border-radius: 20px;
+    transition: .5s;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: large;
+}
+.Main_info button:hover{
+    
+    border: 1px solid rgb(0, 174, 174);
+   
+    background-color:rgb(10, 10, 10);
+    color:  rgb(0, 174, 174);
+    border-radius: 20px;
+   transform: scale(1);
+   letter-spacing: 0;
+    border: 1px solid aqua ;
+    color: aqua;
+}
+nav i{
+    color: black;
+    cursor: pointer;
+}
+nav span i{
+    color: aliceblue;
+}
