@@ -1,4 +1,4 @@
-import './start.css';
+import './Start.css';
 import React, { useContext, useState } from 'react'
 import video1 from './../../../assets/ADS(3).mp4'
 import video3 from './../../../assets/ADS(2).mp4'
